@@ -2,7 +2,6 @@
 if !(test -d ~/.vim/colors)
 then
     mkdir -p ~/.vim/colors
-    echo haha
 fi
 cp -r * ~/.vim/.
 user=$(whoami)
